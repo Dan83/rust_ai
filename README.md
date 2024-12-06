@@ -9,11 +9,11 @@ export LIBTORCH=$(pwd)
 export LIBTORCH_INCLUDE=$LIBTORCH
 export LIBTORCH_LIB=$LIBTORCH
 export LIBTORCH_BYPASS_VERSION_CHECK=1
-#export LD_LIBRARY_PATH=/data/rust_tensorflow/libtorch/libtorch/lib:$LD_LIBRARY_PATH
+#export LD_LIBRARY_PATH=/data/rust_ai/libtorch/libtorch/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$(pwd)/libtorch/lib:$LD_LIBRARY_PATH
 
 echo $LIBTORCH
-#example ==> /data/rust_tensorflow/libtorch/libtorch
+#example ==> /data/rust_ai/libtorch/libtorch
 
 ```
 
